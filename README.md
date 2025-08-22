@@ -88,17 +88,14 @@ pip install -r requirements.txt
 
 ## Usage
 1. Place journal article files in the designated input folder.  
-2. Run the script to extract DAS:  
+2. Open `python extract_das.ipynb`:  
 
-    ```bash
-    python extract_das.py
-    ```
+    Change the second cell that has the comment "Parameters to change for your configuration"
+    This is configured for per year, but you can have one set to extract.  Change the api_path, pdf_path, file_pref, and output_path as you see fit.
 
-3. Run the script to classify DAS:  
+3. Open `python classify_das.ipynb`:  
 
-    ```bash
-    python classify_das.py
-    ```
+    Like step 2 change the parameters to fit your needs.
 
 4. View results in the generated CSV file.  
 
