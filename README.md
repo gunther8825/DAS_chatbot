@@ -83,3 +83,26 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+## Usage
+1. Place journal article files in the designated input folder.  
+2. Run the script to extract DAS:  
+
+    ```bash
+    python extract_das.py
+    ```
+
+3. Run the script to classify DAS:  
+
+    ```bash
+    python classify_das.py
+    ```
+
+4. View results in the generated CSV file.  
+
+---
+## License
+
+This project is licensed under the MIT License.  
